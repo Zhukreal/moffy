@@ -42,7 +42,7 @@
     margin-bottom: 80px;
 }
 .title-course-item {
-    font-weight: bold;
+    font-family: 'RobotoBold';
     font-size: 40px;
     line-height: 50px;
     color: #8C34CF;
@@ -161,7 +161,7 @@
     left: 37px;
     color: #8C34CF;
     font-size: 22px;
-    font-weight: bold;
+    font-family: 'RobotoBold';
 }
 .course-item-individual {
     display: flex;

@@ -1,3 +1,17 @@
+.about-box {
+    background: #4C3260;
+    color: #ffffff;
+}
+.about-content-left {
+    width: calc(100vw - 1200px);
+    padding-right: 5%;
+}
+.about-content-right {
+    width: 1200px;
+}
+.about-box .main-blot {
+    left: -100px;
+}
 .quote-autor {
     text-align: right;
     margin-top: 10px;
@@ -77,7 +91,7 @@
     font-family: 'RobotoLight';
 }
 .about-results {
-    font-weight: bold;
+    font-family: 'RobotoBold';
     font-size: 40px;
     line-height: 50px;
     color: #000000;
@@ -108,12 +122,16 @@
     position: absolute;
     bottom: 100px;
     width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .about-wave-content div {
     font-size: 21px;
     color: #ffffff;
 }
-
+.main-bottom-about {
+    justify-content: space-between;
+}
 
 
 

@@ -190,7 +190,7 @@ header {
     top: -30px;
 }
 .main-title {
-    font-weight: bold;
+    font-family: 'RobotoBold';
     font-size: 62px;
     line-height: 72px;
     margin-top: 70px
@@ -247,7 +247,7 @@ header {
 }
 .title-box {
     font-size: 62px;
-    font-weight: bold;
+    font-family: 'RobotoBold';
     line-height: 72px;
     margin-bottom: 25px;
 }
