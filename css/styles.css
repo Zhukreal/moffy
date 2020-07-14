@@ -260,16 +260,68 @@ header {
     background: #2B2A29;
 }
 
+.footer {
+    position: relative;
+    padding: 60px 0 100px 0;
+    background: #4C3260;
+    color: #ffffff;
+}
+.footer-content {
+    padding-left: 10%;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top {
 
-
-
-
-
-
-
-
-
-
+}
+.footer-title {
+    font-size: 21px;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu_item {
+    margin-left: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer-bottom {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-item {
+    font-size: 21px;
+    font-family: 'RobotoLight';
+}
+.footer-item-title {
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+}
+.footer-bottom-item .transparent-green {
+    border: 2px solid #8CCD31;
+    border-radius: 36px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.footer_social_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+.footer_social_buttons img {
+    margin-left: 15px;
+}
+.footer-logo {
+    position: absolute;
+    left: 5%;
+    top: 70px;
+}
 
 
 

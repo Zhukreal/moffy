@@ -1,0 +1,126 @@
+.quote-autor {
+    text-align: right;
+    margin-top: 10px;
+}
+.about-flex {
+    display:flex;
+    justify-content: space-between;
+}
+.about-flex-left {
+    width: 50%;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.about-flex-right {
+    width: 50%;
+    padding-left: 30px;
+    box-sizing: border-box;
+    text-align: right;
+}
+.about-flex-right img {
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+.about-text {
+    font-family: 'RobotoLight';
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.about-text span {
+    font-family: 'Roboto';
+}
+.about-content .subtitle-box {
+    margin-bottom: 30px;
+}
+.about-row-kid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.about-col-kid {
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+}
+/*.about-col-kid-1 {*/
+/*    background: url('./../img/blot-bg-1.png') center center no-repeat;*/
+/*}*/
+/*.about-col-kid-2 {*/
+/*    background: url('./../img/blot-bg-2.png') center center no-repeat;*/
+/*}*/
+/*.about-col-kid-3 {*/
+/*    background: url('./../img/blot-bg-3.png') center center no-repeat;*/
+/*}*/
+/*.about-col-kid-4 {*/
+/*    background: url('./../img/blot-bg-4.png') center center no-repeat;*/
+/*}*/
+/*.about-col-kid-5 {*/
+/*    background: url('./../img/blot-bg-5.png') center center no-repeat;*/
+/*}*/
+/*.about-col-kid-6 {*/
+/*    background: url('./../img/blot-bg-6.png') center center no-repeat;*/
+/*}*/
+.about-col-person {
+
+}
+.about-col-title {
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    margin: 30px 0 10px 0;
+}
+.about-col-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    font-family: 'RobotoLight';
+}
+.about-results {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+.about-results-sub {
+    font-size: 21px;
+    line-height: 31px;
+}
+.about-wave {
+    width: 100%;
+    height: 550px;
+    background: url(./../img/about-wave.png) no-repeat;
+    background-size: 100vw 550px;
+    position: relative;
+    border-bottom: 5px solid #BEFC67;
+}
+.box-about {
+    padding-bottom: 0;
+}
+.box-about .container-about {
+    margin-bottom: -100px;
+}
+.about-wave-content {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+.about-wave-content div {
+    font-size: 21px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
