@@ -39,39 +39,28 @@ body {
     font-size: 14px;
     color: #FFFFFF;
     padding: 0 25px;
-    background-color: grey;
-    border-radius: 105px;
-    border: none;
+    background-color: transparent;
+    border-radius: 36px;
+    /*border: none;*/
+    border: 1px solid #BEFC67;
     outline: none;
     cursor: pointer;
 }
-.button.transparent {
+.button.purple {
+    font-size: 20px;
+    height: 64px;
+    line-height: 64px;
+    background: #BC66FC;
+    border: none;
+    border-radius: 105px;
+    padding: 0 50px;
+}
+.button.transparent-green {
+    height: 34px;
+    line-height: 34px;
+    border-radius: 36px;
     background-color: transparent;
-    height: 45px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
-    border-radius: 78px;
-    border: 1px solid #0D90D4;
-    color: #0D90D4;
-    font-size: 16px;
-}
-.button.transparent.arrow {
-    padding-right: 80px;
-    background: url('./../img/icons/arrow-right.svg');
-    background-repeat: no-repeat;
-    background-position: center right 25px;
-}
-.button.transparent.clip {
-    /*padding-right: 80px;*/
-    background: url('./../img/icons/clip.svg');
-    background-repeat: no-repeat;
-    background-position: center right 30px;
-    text-align: center;
-    color: #404040;
-    border-color: #015DA8;
-    /*padding: 0 20px;*/
+    border: 1px solid #BEFC67;
 }
 .button.red {
     background-color: #FF1929;
@@ -131,12 +120,12 @@ textarea::-ms-input-placeholder { color: #404040; font-style: italic; font-famil
 textarea::placeholder { color: #404040; font-style: italic; font-family: 'RobotoLight';}
 
 .container {
-    max-width: 1600px;
+    max-width: 1192px;
     margin: 0 auto;
     box-sizing: border-box;
 }
-.container-center {
-    max-width: 1000px;
+.container-big {
+    max-width: 1600px;
     margin: 0 auto;
 }
 header {
@@ -144,38 +133,149 @@ header {
     /*width: 100%;*/
     /*top: 0;*/
     /*left: 0;*/
-    background: transparent;
+    background: #4C3260;
 }
 .header {
     height: 100px;
     display: flex;
+    align-items: center;
     justify-content: flex-end;
-    padding-top: 50px;
 }
 .menu_wrapper {
     display: flex;
     justify-content: space-between;
-    margin-right: 20px;
+    margin-right: 35px;
     padding-top: 10px;
 }
 .menu_item {
     margin-right: 20px;
     font-size: 16px;
-    color: #515151;
+    color: #FFFFFF;
     height: 25px;
-}
-.menu_item:hover {
-    border-bottom: 2px solid #FF1929;
     cursor: pointer;
 }
 .menu_tel {
     font-size: 16px;
-    color: #515151;
+    color: #FFFFFF;
+    margin-left: 10px;
 }
 .header_buttons {
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
-.header_buttons .button:first-child {
-    margin-bottom: 10px;
+.header_buttons img {
+    margin-right: 10px;
+    cursor: pointer;
 }
+.header_buttons button {
+    margin-left: 20px;
+}
+.main-box {
+    min-height: calc(100vh - 100px);
+    background: #4C3260;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding-top: 20px;
+}
+.main-content-left {
+    width: 705px;
+}
+.main-content-right {
+    width: 50%;
+    position: relative;
+    top: -30px;
+}
+.main-title {
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 72px;
+    margin-top: 70px
+}
+.main-subtext {
+    font-size: 21px;
+    line-height: 31px;
+    margin-top: 35px;
+}
+.main-bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-bottom-right {
+    padding-top: 50px;
+}
+.main-bottom-right .button {
+    padding: 0 110px;
+}
+.main-img-border {
+
+}
+.main-blot {
+    position: absolute;
+    background: transparent;
+    bottom: -30px;
+    right: 80px;
+    cursor: pointer;
+}
+.main-blot-img {
+
+}
+.main-blot-text {
+    color: #4C4C4C;
+    font-size: 20px;
+    line-height: 23px;
+    position: absolute;
+    text-align: center;
+    top: 55px;
+    right: 50px;
+}
+.main-border-wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.box-container {
+    padding: 80px 0;
+}
+.why-box {
+    color: #000000;
+}
+.title-box {
+    font-size: 62px;
+    font-weight: bold;
+    line-height: 72px;
+    margin-bottom: 25px;
+}
+.subtitle-box {
+    font-size: 21px;
+    line-height: 31px;
+}
+.border-boxes {
+    height: 25px;
+    background: #2B2A29;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
