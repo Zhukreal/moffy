@@ -135,6 +135,9 @@ header {
     /*left: 0;*/
     background: #4C3260;
 }
+.main-logo-wrapper {
+
+}
 .header {
     height: 100px;
     display: flex;
