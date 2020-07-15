@@ -153,6 +153,7 @@ header {
     color: #FFFFFF;
     height: 25px;
     cursor: pointer;
+    text-decoration: none;
 }
 .menu_tel {
     font-size: 16px;
@@ -287,6 +288,8 @@ header {
     margin-left: 15px;
     font-size: 18px;
     cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
 }
 .footer-bottom {
     margin-top: 50px;
