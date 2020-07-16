@@ -1,3 +1,6 @@
+.why-box {
+    background: #ffffff;
+}
 .why-box .subtitle-box{
     margin-bottom: 60px;
 }
@@ -62,11 +65,15 @@
     font-family: 'Roboto';
 }
 .why-block-img {
-    background: url(./../img/why-blot.png) no-repeat;
+    /*background: url(./../img/why-blot.png) no-repeat;*/
+    /*text-align: center;*/
+    /*background-size: 100%;*/
+    /*background-position: center center;*/
+    margin: 0 auto 20px auto;
     text-align: center;
-    background-size: 100%;
-    background-position: center center;
-    margin-bottom: 20px;
+}
+.why-block-img img {
+
 }
 
 .comfort-box {
@@ -222,16 +229,8 @@
 }
 .contact-boy {
     position: absolute;
-    left: -360px;
-    top: -50px;
-    width: 470px;
-    height: 490px;
-    background: url(./../img/contact-blot.png) no-repeat;
-    background-size: 100%;
-    background-position: center center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    left: -315px;
+    top: -77px;
     z-index: -1;
 }
 .box-gallery {
@@ -258,7 +257,9 @@
 .gallery_arrow-right {
     right: -100px;
 }
-
+.comfort-col-img {
+    margin-bottom: 50px;
+}
 
 
 

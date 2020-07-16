@@ -177,6 +177,7 @@ header {
 .main-box {
     min-height: calc(100vh - 100px);
     background: #4C3260;
+    position: relative;
 }
 .main-content {
     display: flex;
@@ -328,8 +329,10 @@ header {
     left: 5%;
     top: 70px;
 }
-
-
+.main-top_big-image {
+    width: 100%;
+    position: relative;
+}
 
 
 
