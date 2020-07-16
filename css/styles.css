@@ -28,6 +28,9 @@
     font-weight: 400;
     src: url("./../fonts/Russo_One/RussoOne-Regular.ttf") format('truetype')
 }
+div {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     font-family: Roboto;
@@ -129,11 +132,12 @@ textarea::placeholder { color: #404040; font-style: italic; font-family: 'Roboto
     margin: 0 auto;
 }
 header {
-    /*position: fixed;*/
-    /*width: 100%;*/
-    /*top: 0;*/
-    /*left: 0;*/
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     background: #4C3260;
+    z-index: 10;
 }
 .main-logo-wrapper {
 
@@ -333,9 +337,24 @@ header {
     width: 100%;
     position: relative;
 }
-
-
-
+.header-mobile {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.burger_header {
+    width: 30px;
+    height: 30px;
+}
+.logo_mobile {
+    width: 70px;
+}
+.img-main_mobile {
+    height: 200px;
+    margin-top: 30px;
+}
 
 
 
