@@ -1,5 +1,6 @@
 .why-box {
     background: #ffffff;
+    position: relative;
 }
 .why-box .subtitle-box{
     margin-bottom: 60px;
