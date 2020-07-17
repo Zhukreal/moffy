@@ -130,11 +130,220 @@
         font-size: 15px;
         line-height: 25px;
     }
+    .home_courses-list-box .subtitle-box {
+        margin-bottom: 30px;
+    }
+    .course-item-big {
+        padding: 25px 20px;
+        margin-bottom: 30px;
+    }
+    .title-course-item {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+    .subtitle-course-item {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .text-course-item {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .item-big-content {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .item-big-content-left {
+        margin-top: 30px;
+        width: 100%;
+        padding-right: 0;
+        font-size: 14px;
+    }
+    .item-big-content-right{
+        width: 100%;
+        padding-left: 0;
+    }
+    .item-big-content-right img {
+        display: none;
+    }
+    .item-big-content-right .button {
+        height: 48px;
+        line-height: 48px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .row-courses {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .card-course {
+        width: 100%;
+        padding: 20px 25px;
+        margin-bottom: 40px;
+    }
+    .price-card-course {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .online-opp-card {
+        font-size: 14px;
+    }
+    .img-card-course {
+        height: 75px;
+        left: 35px;
+        top: 15px;
+    }
+    .blot-card-course {
+        right: -0;
+        top: -20px;
+    }
+    .blot-card-course img {
+        width: 85px;
+    }
+    .text-blot-card-course {
+        top: 17px;
+        left: 16px;
+        font-size: 13px;
+    }
+    .home-course-item-individual {
+        padding: 35px 25px;
+    }
+    .title-course-item_home {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .home-course-item-individual_flex {
+        flex-direction: column;
+    }
+    .course-item-individual-left,
+    .course-item-individual-center,
+    .course-item-individual-right {
+        width: 100%;
+    }
+    .online-opp-card {
+        display: none;
+    }
+    .course-item-individual-center {
+        margin-bottom: 10px;
+    }
+    .card-course .button,
+    .home-course-item-individual .button {
+        height: 48px;
+        line-height: 48px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .share-text {
+        font-size: 13px;
+    }
+    .team-content_row {
+        margin: 0;
+        flex-direction: column;
+    }
+    .team-content_col {
+        width: 100%;
+        padding: 0;
+    }
+    .teacher-name {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 20px 0 10px 0;
+    }
 
-
-
-
-
+    .teacher-position {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .teacher-text {
+        font-size: 13px;
+        line-height: 22px;
+        color: #4C4C4C;
+    }
+    .team-content_col > img {
+        width: 80%;
+        padding-left: 10%;
+    }
+    .team-content {
+        margin: 30px 0;
+    }
+    .contact-content {
+        flex-direction: column;
+    }
+    .contact-content-left,
+    .contact-content-right {
+        width: 100%;
+    }
+    .contact-boy {
+        display: none;
+    }
+    .contact-label,
+    .contact-text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .contact-text {
+        margin-bottom: 20px;
+    }
+    .contact-content .subtitle-box {
+        margin-bottom: 20px;
+    }
+    .contact-content .button {
+        width: 90%;
+        margin-left: 5%;
+        height: 52px;
+        line-height: 52px;
+    }
+    .contact-content-left {
+        margin-bottom: 30px;
+    }
+    .box-gallery {
+        padding: 40px 0;
+    }
+    .gallery-active {
+        width: 100%;
+    }
+    .gallery_arrow-left,
+    .gallery_arrow-right {
+        display: none;
+    }
+    .footer {
+        padding: 40px 0;
+    }
+    .footer-logo {
+        display: none;
+    }
+    .footer-content {
+        padding: 0;
+    }
+    .footer-top {
+        display: none;
+    }
+    .footer-bottom {
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .footer-bottom-item {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .footer_social_buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 250px;
+        margin: 40px auto 30px auto;
+    }
+    .footer_social_buttons img {
+        margin: 0;
+        width: 45px;
+    }
+    .footer-bottom-item .transparent-green {
+        width: 100%;
+        justify-content: center;
+    }
 
 
 
